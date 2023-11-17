@@ -80,7 +80,7 @@ if (a < b) {
 
 
 // Gunakan switch case untuk mengetahui nama hari berdasarkan angka. Hari minggu dimulai dari angka 1 dan seterusnya.
-var namaHari = 1;
+let namaHari = 1;
 switch(namaHari) {
     case 1: console.log('Senin');
         break;
@@ -101,7 +101,7 @@ switch(namaHari) {
 
 
 // Gunakan switch case untuk membuat sebuah game sederhana. UP -> Karakter berjalan keatas; RIGHT -> Karakter berjalan kekanan; BOTTOM -> Karakter berjalan kebawah; LEFT -> Karakter berjalan kekiri.
-var gameSederhana = 'Right';
+let gameSederhana = 'Right';
 switch(gameSederhana) {
     case 'Up': console.log('Karakter berjalan keatas');
         break;
